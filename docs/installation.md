@@ -123,7 +123,7 @@ con el siguiente contenido:
         try_files $uri @uwsgi;
       }
 
-      location /static {
+      location /static/ {
         alias /var/www/libreborme/mylibreborme/static/;
       }
 
